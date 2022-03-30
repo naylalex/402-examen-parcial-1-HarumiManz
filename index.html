@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Webpack App</title>
+    </head>
+    <body>
+        <h1>Niveles de presión sonora y tu bienestar </h1>
+        <h2>Lineamientos para tiempo de exposición permisible a dosis de niveles de presión sonora</h2>
+        
+        <p> ¿Cuánto tiempo puede una persona exponerse a cierto nivel de sonido sin que le ocurra una lesión
+             o impedimento en su escucha?</p>
+        
+        <table border="1"> 
+            <tr>
+                <td> Nivel de presión sonora (db) </td>
+                <td> Nivel de presión (Pa) </td>
+                <td> Tiempo permisible de exposición </td>
+            </tr>
+            <tr> 
+                <td> 115 dB </td>
+                <td> 11.2 Pa </td>
+                <td> ~30 sec </td>
+            </tr>
+            <tr> 
+                <td> 112 dB </td>
+                <td> 7.96 Pa </td>
+                <td> 0.9375 min (~1 min) </td>
+            </tr>
+            <tr> 
+                <td> 109 dB </td>
+                <td> 5.64 Pa </td>
+                <td> 1.875 min ( 2 min) </td>
+            </tr>
+            <tr> 
+                <td> 106 dB </td>
+                <td> 3.99 Pa </td>
+                <td> 3.75 min (4min) </td>
+            </tr>
+            <tr> 
+                <td> 103 dB </td>
+                <td> 2.83 Pa </td>
+                <td> 7.5 min </td>
+            </tr>
+            <tr> 
+                <td> 100 dB </td>
+                <td> 2.00 Pa </td>
+                <td> 15 min </td>
+            </tr>
+            <tr> 
+                <td> 97 dB </td>
+                <td> 1.42 Pa </td>
+                <td> 30 min </td>
+            </tr>
+            <tr> 
+                <td> 94 dB--------- </td>
+                <td> 1.00 Pa ------ </td>
+                <td> 1 hora-------- </td>
+            </tr>
+            <tr> 
+                <td> 91 dB </td>
+                <td> 0.75 Pa </td>
+                <td> 2 horas </td>
+            </tr>
+            <tr> 
+                <td> 88 dB </td>
+                <td> 0.50 Pa </td>
+                <td> 4 horas </td>
+            </tr>
+            <tr> 
+                <td> 85 dB </td>
+                <td> 0.36 Pa </td>
+                <td> 8 horas </td>
+            </tr>
+            <tr> 
+                <td> 82 dB </td>
+                <td> 0.25 Pa </td>
+                <td> 16 horas </td>
+            </tr>
+        </table>
+        
+        <h3> Calculadora de nivel de presión sonora y tiempo permisible de exposición</h3>
+        <p> Tiempo de exposición
+        <input id="inputText"> 
+        <button id="buttonSubmit">Convertir a SLP máximo</button>
+        <div id = "divResult"></div>
+        </p>
+
+    </body>
+    
+</html>
